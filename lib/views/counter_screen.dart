@@ -38,6 +38,8 @@ class CounterPage extends StatelessWidget {
           ),
         ),
       ),
+
+      // consumer is used to listen to the state changes of the bloc
       body: BlocConsumer<CounterBloc, CounterState>(
         listener: (context, state) {
           if (state.counter == 5) {
