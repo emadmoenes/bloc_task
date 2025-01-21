@@ -1,16 +1,18 @@
-# bloc_task
+# BLoC Task - Counter and Theme Toggling App
 
-A new Flutter project.
+This is a Flutter app that demonstrates the use of the **BLoC (Business Logic Component)** pattern for state management. The app includes:
 
-## Getting Started
+1. A **counter** that can be incremented and decremented.
+2. A **theme toggle** to switch between light and dark themes.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- **Counter**:
+  - Increment and decrement the counter using buttons.
+  - A SnackBar is shown when the counter reaches 5.
+  - A SnackBar is shown when the counter reaches 0.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Theme Toggling**:
+  - Toggle between light and dark themes using an icon in the AppBar.
+  - The AppBar color, icon colors, and text colors change dynamically based on the theme.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
